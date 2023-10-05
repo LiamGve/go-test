@@ -10,5 +10,5 @@ func main() {
 		fmt.Fprintf(w, quote.Go(), r.URL.Path)
 	})
 
-	http.ListenAndServe(":80", nil)
+	http.ListenAndServe(":443", nil)
 }
